@@ -35,10 +35,13 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
-              <li class="nav-item "><a class="nav-link" href="kasus.php">Kasus</a></li> 
-              <li class="nav-item active"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
-              <li class="nav-item"><a class="nav-link" href="checkup.php">Checkup!</a></li>
+                <li class="nav-item active btn btn-sm"><a class="nav-link" href="index.php">beranda</a></li> 
+                <li class="nav-item btn btn-sm"><a class="nav-link" href="kasus.php">Kasus</a></li> 
+                <li class="nav-item btn btn-sm"><a class="nav-link" href="rumahsakit.php">Rumahsakit Rujukan</a></li>
+                <li class="nav-item btn btn-sm"><a class="nav-link button-light navbar-light" href="checkup.php">Checkup!</a></li>
+                <li class="nav-item btn btn-sm"><a class="nav-link" href="berita.php">berita</a></li>
+                <li class="nav-item mr-1 btn btn-sm"><a class="nav-link" href="login.php">login</a></li>
+                <li class="nav-item btn btn-sm btn-outline-info"><a class="nav-link" href="daftar.php">daftar</a></li>
             </ul>
         </div>
       </nav>
