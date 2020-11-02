@@ -19,7 +19,7 @@
   <!--================Header Menu Area =================-->
   <header class="header_area">
     <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container box_1620">
           <!-- Brand and toggle get grouped for better mobile display -->
           <a class="navbar-brand logo_h" href="index.php" data-aos="fade-down"><img src="img/logo.png" alt="" data></a>
