@@ -1,8 +1,9 @@
 <?php
 
 //Buat fungsi http_request
-function http_request($url){
-	
+function http_request($url)
+{
+
 	//persiapkan CURL
 	$ch = curl_init();
 
@@ -29,28 +30,28 @@ function http_request($url){
 //panggil fungsi http_request(url/link api)
 $data =	http_request("https://api.kawalcorona.com/indonesia/provinsi/");
 //ubah format json
-	$data = json_decode($data, TRUE);
+$data = json_decode($data, TRUE);
 
-	// echo "<pre>";
-	// 	print_r($data);
-	// echo "</pre>";
+// echo "<pre>";
+// 	print_r($data);
+// echo "</pre>";
 
-	//tampung jumlah data
-	$jumlah = count($data);
-	
-	$nomor = 1;
+//tampung jumlah data
+$jumlah = count($data);
 
-	for($i = 0; $i < $jumlah; $i++){
-		$hasil = $data[$i]['attributes']
-	?>
-		<tr>
-			<td><?=$nomor++?></td>
-			<td><?=$hasil['Provinsi']?></td>
-			<td><?=$hasil['Kasus_Posi']?></td>
-			<td><?=$hasil['Kasus_Semb']?></td>
-			<td><?=$hasil['Kasus_Meni']?></td>
-		</tr>
-	<?php 
-	}
-	 ?>
+$nomor = 1;
+
+for ($i = 0; $i < $jumlah; $i++) {
+	$hasil = $data[$i]['attributes']
+?>
+	<tr>
+		<td><?= $nomor++ ?></td>
+		<td><?= $hasil['Provinsi'] ?></td>
+		<td><?= $hasil['Kasus_Posi'] ?></td>
+		<td><?= $hasil['Kasus_Semb'] ?></td>
+		<td><?= $hasil['Kasus_Meni'] ?></td>
+	</tr>
+<?php
+}
+?>
 ?>
