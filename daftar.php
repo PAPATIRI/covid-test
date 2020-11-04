@@ -48,16 +48,14 @@
     </div>
   </header>
   <!--================Header Menu Area =================-->
-
-
   <main class="side-main">
     <!--================ Hero sm Banner start =================-->
     <section class="hero-banner">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="20">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-anchor-placement="top" data-aos-duration="20">
             <div class="hero-banner__img">
-              <img class="img-fluid" src="img/banner/home.png">
+              <img class="img-fluid" src="img/banner/ilustrasi-registrasi.png">
             </div>
           </div>
           <div class="col-lg-6 pt-7" data-aos="fade-right">
@@ -69,15 +67,15 @@
                 </div>
                 <div class="form-group">
                   <label for="formGroupExampleInput2">email</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="contoh@email.com">
+                  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="contoh@email.com">
                 </div>
                 <div class="form-group">
                   <label for="formGroupExampleInput2">kata sandi</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="kata sandi">
+                  <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="kata sandi">
                 </div>
                 <div class="form-group">
                   <label for="formGroupExampleInput2">konfirmasi kata sandi</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ulangi kata sandi">
+                  <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="ulangi kata sandi">
                 </div>
                 <button type="submit" class="btn btn-info mt-4">daftar</button>
               </form>
@@ -87,22 +85,14 @@
       </div>
     </section>
     <!--================ Hero sm Banner end =================-->
-
-
-
-
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">Copyright &copy;<script>
         document.write(new Date().getFullYear());
       </script> Smatecin All rights reserved
     </div>
     <!-- Copyright -->
-
     </footer>
-
-
     <!-- ================ End footer Area ================= -->
-
     <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
