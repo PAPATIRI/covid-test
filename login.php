@@ -71,7 +71,7 @@
                                     <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="kata sandi">
                                 </div>
 
-                                <button type="submit" class="btn btn-info mt-4">daftar</button>
+                                <button type="submit" class="btn btn-info mt-4">masuk</button>
                             </form>
                         </div>
                     </div>
